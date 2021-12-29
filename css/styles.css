@@ -50,10 +50,14 @@ body{
       padding-bottom: 25px;*/
   }
   .container{
-    width:1600px;
+    width:1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+ }
+ .section{
+     padding-top: 94px;
+     padding-bottom: 94px;
  }
   .container-nav{
     display: flex;
@@ -75,7 +79,6 @@ body{
     color: var(--font-color);
     padding-top: 24px;
     padding-bottom: 25px;
-    padding-left: 215px;
 }
 .logo > span{
     color: var(--nav-hover);
@@ -114,7 +117,7 @@ body{
 .contacts{
     list-style: none;
     display: flex;
-    padding-left: 331px;
+    margin-left: auto;
     align-items: center; 
 }
 .contacts-link{
@@ -131,14 +134,12 @@ body{
 
 
 /*----------------------  Секция герой   -------   */
-.title-border{
-    padding: 0 10px;
-}
 
 .container-hero{
    /* ???????????????*/
    background: var(--hero-bgcolor);
    text-align: center;
+   padding-top: 200px;
    padding-bottom: 280px;
 }
 .hero-title{
@@ -149,12 +150,10 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--hero-font-color);
-   padding-top: 200px;
-    padding-right: 452px;
-    padding-left: 452px;
-}
-.hero-button{
+}    
+    .hero-button{
     cursor: pointer;
+    border: none;
     width: 200px;
     height: 50px;
     left: 700px;
@@ -174,10 +173,6 @@ body{
     }
 
 /*-------------------------  Секция статей   -------------------*/
-.section-articles{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .articles-container{
     display: flex;
    justify-content: center;
@@ -195,7 +190,7 @@ body{
     font-weight: bold;
     line-height: 1.14;
     text-transform: uppercase;
-    text-align: center;
+    
     margin-bottom: 10px;
 }
 .article{
@@ -216,9 +211,12 @@ body{
 .container-activity{
    align-items: center;
 }
-    
-.activity-images{
-    padding-left: 215px;
+.activity-pic{
+    display: block;
+    max-width: 100%;
+    height: auto;
+} 
+.activity-images{ 
     display: flex;
 }
 .activity-images li:not(:last-child){
@@ -228,8 +226,7 @@ body{
 
 /*===============    наша комманда     ===================*/
 .command{
-    padding-top:94px;
-    padding-bottom: 94px;
+   background: #F5F4FA;
 }
 .activity-title,
 .command-title{
@@ -242,17 +239,26 @@ body{
  }
  .command-list{
      display: flex;
-     padding-left: 215px;
+   
  }
  .command-list li:not(:last-child){
     margin-right: 30px;
  }
+ .command-foto{
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+ .figure-caption{
+    padding-top: 30px;
+ }
+
 .command-name{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.18;
     text-align: center;
-    padding-top: 30px;
+
     margin-bottom: 10px;
  }
 .command-position{
@@ -269,6 +275,8 @@ body{
 
 .container-footer{
     background: var(--footer-bgcolor);
+    padding-top: 60px;
+    padding-bottom: 60px;
    
 }
 .footer-logo{
@@ -279,8 +287,8 @@ body{
     line-height: 1.19;
     text-decoration: none;
     color: var(--footer-color);
-    padding-top: 60px;
-    padding-bottom: 20px;
+    /*padding-top: 60px;*/
+    margin-bottom: 20px;
     padding-left: 215px;
     display: block;
 }
