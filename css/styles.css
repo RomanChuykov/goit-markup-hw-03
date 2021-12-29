@@ -272,12 +272,13 @@ body{
 }
 
 /* --------------------------  footer  ----------------------------*/
-
-.container-footer{
+.footer{
     background: var(--footer-bgcolor);
     padding-top: 60px;
     padding-bottom: 60px;
-   
+}
+.container-footer{
+       
 }
 .footer-logo{
     font-family: Raleway;
@@ -287,7 +288,6 @@ body{
     line-height: 1.19;
     text-decoration: none;
     color: var(--footer-color);
-    /*padding-top: 60px;*/
     margin-bottom: 20px;
     padding-left: 215px;
     display: block;
@@ -301,9 +301,7 @@ body{
 .footer-contacts-list li:not(:last-child){
     margin-bottom: 9px;
 }
-.footer-contacts-list li:last-child{
-    padding-bottom: 30px;
-}
+
 
 .adres{
     text-decoration: none;
