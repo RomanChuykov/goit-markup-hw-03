@@ -45,9 +45,7 @@ body{
      cursor: pointer;
  }
   header{
-     /* height: 80px;
-      /*padding-top: 24px;
-      padding-bottom: 25px;*/
+    border-bottom: 1px solid #ECECEC;
   }
   .container{
     width:1200px;
@@ -61,7 +59,6 @@ body{
  }
   .container-nav{
     display: flex;
-    border-bottom: 1px solid #ECECEC;
   }
 
 /*---------------------  Секция навигации-------------        */
@@ -135,18 +132,19 @@ body{
 
 /*----------------------  Секция герой   -------   */
 .hero{
-    
+    background: var(--hero-bgcolor);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: auto;
+    padding-right: auto;
 }
 .container-hero{
    /* ???????????????*/
-   background: var(--hero-bgcolor);
-   text-align: center;
-   padding-top: 200px;
-   padding-bottom: 200px;
-   padding-left: auto;
-   padding-right: auto;
+  
 }
 .hero-title{
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -154,8 +152,8 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--hero-font-color);
-    padding-left: 237px;
-    padding-right: 237px;
+    margin: 0 auto;
+
 }    
     .hero-button{
     cursor: pointer;
@@ -167,7 +165,7 @@ body{
     background: var(--nav-hover);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: inherit;
+    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -200,6 +198,7 @@ body{
     margin-bottom: 10px;
 }
 .article{
+
     width: 270px;
     height: 75px;
     left: 515px;
@@ -207,8 +206,13 @@ body{
     font-weight: normal;
     line-height: 1.71;
     color: var(--article-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
-
 /*===============================   Чем мы ханимаемся    =============*/
 .activity{
     padding-bottom: 94px;
@@ -245,7 +249,11 @@ body{
  }
  .command-list{
      display: flex;
-   
+     background-color: #fff;
+ }
+ .command-list li{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
  }
  .command-list li:not(:last-child){
     margin-right: 30px;
@@ -257,6 +265,7 @@ body{
  }
  .figure-caption{
     padding-top: 30px;
+    padding-bottom: 30px;
  }
 
 .command-name{
@@ -274,7 +283,6 @@ body{
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--command-position-font-color);
-    padding-bottom: 30px;
 }
 
 /* --------------------------  footer  ----------------------------*/
@@ -340,16 +348,16 @@ body{
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    background-color: inherit;
-    font-family: inherit;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    color: inherit;
+    color: var(--font-color);
     padding: 6px 22px;
     margin-left: 8px;
+    background-color: #F5F4FA;
 }
 .filter-button:hover,
 .filter-button:focus{
@@ -365,8 +373,7 @@ body{
     display: flex;
     /*padding-left: 215px;*/
     flex-wrap: wrap;
-
-}
+}  
 .example:not(:nth-child(3n+1)){
     margin-left: 30px;
 }
@@ -375,21 +382,26 @@ body{
 
 .example{
     /*margin-left: 30px;*/
-    margin-bottom: 30px;
-
+     margin-bottom: 30px;
+    
 }
 .example a{
     text-decoration: none;
 }
+.example-caption{
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 20px 24px 20px 24px;
+}
+
 .works-title{
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
+    letter-spacing: 6%;
     color:var(--font-color);
-    margin-top: 20px;
     margin-bottom: 4px;
-    padding-left: 24px;
 }
 .works-type{
     font-size: 14px;
@@ -397,6 +409,4 @@ body{
     font-size: 16px;
     line-height: 1.87;
     color: var(--works-type-color);
-    padding-bottom: 20px;
-    padding-left: 24px;
 }
