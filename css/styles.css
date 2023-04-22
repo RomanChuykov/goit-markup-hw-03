@@ -68,7 +68,7 @@ body {
   display: flex;
   margin-right: 332px; 
   align-items: center; 
-  /* padding: 24px 0;  */
+  padding: 24px 0; 
 }
 .nav-ul {
   display: flex;
@@ -428,6 +428,7 @@ border-radius: 0px 0px 4px 4px;
 .work-capture {
   padding-left: 16px;
   border: 1px solid #E7E9FC;
+  border-top: none; 
   padding: 32px 16px;
 }
 .works-title {
