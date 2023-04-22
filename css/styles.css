@@ -26,6 +26,7 @@ img{
 }
 .section {
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 body {
   /* background-image: url(../images/MainPage.jpg);
@@ -120,6 +121,7 @@ body {
   padding-left: 472px;
   padding-right: 472px;
   margin-right:0px;
+  margin-left: 0;
   
 }
 .hero-title {
@@ -168,7 +170,7 @@ body {
 
 .articles {
   display: flex;
-  padding-top: 120px;
+ 
   
 }
 .articles-container{
