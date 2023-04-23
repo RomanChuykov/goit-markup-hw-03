@@ -434,9 +434,9 @@ border-radius: 0px 0px 4px 4px;
 /* .example-list :nth-child(3n + 3) {
   margin-right: 0;
 } */
-.example-list :nth-child(n + 6) {
+/* .example-list :nth-child(n + 6) {
   margin-bottom: 0;
-}
+} */
 .work-foto-wrap {
   /* margin-bottom: 32px; */
 }
