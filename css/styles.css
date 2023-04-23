@@ -138,7 +138,7 @@ body {
   
 }
 .hero-title {
-  max-lines: 496px;
+  max-width: 496px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
