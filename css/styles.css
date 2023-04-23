@@ -419,20 +419,21 @@ border-radius: 0px 0px 4px 4px;
   flex-wrap: wrap;
   align-content: start;
   row-gap: 48px;
+  gap: 24px;
   justify-content: center;
 }
 .example {
   box-sizing: border-box;
   width: 360px;
-  margin-right: 24px;
+  /* margin-right: 24px; */
   /* margin-bottom: 48px; */
   background: #ffffff;
   /* border: 1px solid #e7e9fc; */
 }
 
-.example-list :nth-child(3n + 3) {
+/* .example-list :nth-child(3n + 3) {
   margin-right: 0;
-}
+} */
 .example-list :nth-child(n + 6) {
   margin-bottom: 0;
 }
