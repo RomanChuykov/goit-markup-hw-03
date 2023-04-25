@@ -382,12 +382,10 @@ body {
 }
 
 .work-capture {
-  padding-left: 16px;
+  
   border: 1px solid #E7E9FC;
   border-top: none; 
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-right: 16px;
+  padding: 32px 16px
 }
 .works-title {
   font-family: "Roboto";
